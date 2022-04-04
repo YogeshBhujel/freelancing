@@ -1,0 +1,28 @@
+.heading{
+    background-color: red;
+    white-space: nowrap;
+    
+}
+.pic{
+   
+    width: 944px;
+    margin-left: 127px;
+    
+}
+.picture{
+    
+    width: 944px;
+    margin-left: 127px;
+    
+}
+.pic1{
+    height: 123px;
+    width: 145px;
+}
+.pic3{
+    height: 123px;
+    width:145px
+}
+.heading a{
+    font-size: 11px;
+}
