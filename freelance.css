@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.name{
+    margin-top: 28px;
+    font-size: 25px;
+    color: red;
+    border: 2px solid green;
+    margin-bottom: 30px;
+    border-top-color:20px blue;
+}
+.logo{
+    height: 70px;
+    width: 80px;
+    position: sticky;
+    top: 1px;
+}
+.signin{
+    
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    
+    position: sticky;
+    top: 2px;
+    
+    
+}
+.signinbut{
+    
+   
+    width: 50vw;
+   
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+    
+    
+    
+}
+.why{
+    border: 2px solid green;
+    text-decoration: none;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 20px;
+    position: sticky;
+    top: 2px;
+    
+}
+.become{
+    border: 2px solid #f07f13;
+    color:#f07f13;
+    font-size: 18px;
+}
+.become:hover{
+    background-color: #f07f13!important;
+    color: white;
+}
+.sign{
+    font-size: 18px;
+    border-color: darkslateblue;
+    color: darkslateblue;
+    position: sticky;
+    top: 2px;
+
+}
+.sign:hover{
+    background-color: blue;
+    color: white;
+
+}
+.join{
+    font-size: 18px;
+    transition-property: all;
+    width: 70px;
+    text-align: center;
+    position: sticky;
+    top: 2px;
+
+}
+.join:hover{
+    background-color: green;
+    color: white;
+    
+
+}
+.heading{
+    border: 2px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    position: sticky;
+   top: 2px;
+   background-color: black;
+    
+}
+.heading a{
+   text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.heading a:hover{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: white;
+    color: green;
+    padding: 4px;
+}
+.back{
+    
+    
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(3.jpg);
+    background-size: cover;
+    border: 2px solid white;
+background-repeat: no-repeat;
+height: 400px;
+ 
+   
+
+}
+
+
+.text{
+    
+    font-size: 46px;
+    color: white;
+    padding-left: 100px;
+    margin-top: 20px;
+    
+
+}
+.text2{
+    margin-top: 0px;
+}
+.flex1{
+    
+    height: 100px;
+    display: flex;
+    margin-top: 6px;
+border-color: white;
+}
+.text1{
+    
+    width: 500px;
+    height: 60px;
+    margin-left: 90px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+border-color: white;
+}
+
+
+
+.sbutn{
+    cursor: pointer;
+    width:150px ;
+   
+    height: 60px;
+    background-color:orange;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+border-color: orange;
+border-radius: 15px;
+}
+.sbutn:hover{
+    background-color: blue;
+    border-color: blue;
+}
+.con1{
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para1{
+    font-size: 30px;
+}
+.pic{
+    display: grid;
+    
+    grid-template-rows: repeat (1,1fr );
+    grid-template-columns: repeat(6,1fr);
+    width: 1200px;
+    margin-left: 100px;
+    
+}
+.pic1{
+   
+   border: 2px;
+   border-radius: 10px;
+   height: 150px;
+   width: 180px;
+    margin: 5px;
+    cursor: pointer;
+   
+}
+.con2{
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.para2{
+    
+    font-size: 30px;
+}
+.picture{
+    display: grid;
+    
+    grid-template-rows: repeat (1,1fr );
+    grid-template-columns: repeat(6,1fr);
+    width: 1200px;
+    margin-left: 100px;
+    
+}
+.pic3{
+   
+   border: 2px;
+   border-radius: 10px;
+   height: 150px;
+   width: 180px;
+    margin: 5px;
+    cursor: pointer;
+   
+}
+.pic3:hover{
+    border: 2px solid red;
+   
+}
+.pic1:hover{
+    border: 2px solid blue;
+   
+}
+.hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content1{
+    
+    display: flex;
+    margin-left: 30px;
+
+
+
+}
+.para4{
+
+font-size:28px;
+font-weight: bold;
+
+}
+.para5{
+   
+   width: 450px;
+   margin-left: 30px;
+   font-size: 18px;
+   margin-top: 5px;
+}
+.meet{
+background-color: rgb(5, 47, 61);
+margin-left: 30px;
+margin-top: 20px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+.para6{
+border: 2px solid rgb(5, 47, 61);
+border-radius: 5px;
+padding: 6px;
+background-color: rgb(5, 47, 61);
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+.yellow{
+    height: 200px;
+    border: 2px solid orange;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.text1{
+    color: white;
+   
+}
+.t1{
+    font-size: 30px;
+}
+.t2{
+    font-size: 30px;  
+}
+.t3{
+    font-size: 30px; 
+}
