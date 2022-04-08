@@ -315,3 +315,17 @@ color: white;
 .t3{
     font-size: 30px; 
 }
+.chat{
+    position: fixed;
+     height: 80px;
+    width: 90px;
+    z-index: 8;
+    bottom: 8px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+}
