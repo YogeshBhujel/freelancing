@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+           
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color:#0a0a0a;
+        }
+        .signin{
+            border: 2px solid black;
+            height: 70vh;
+            width: 29%;
+            background-color: #f9f9f3;
+            position: relative;
+           display: flex;
+           flex-direction: column;
+            background-color: black;
+            border-radius: 20px;
+          
+        }
+        .label1{
+            margin-top: 100px;
+            margin-left: 39px;
+            font-size: 30px;
+            color: aquamarine;
+        }
+        .label2{
+            margin-top: 30px;
+            margin-left: 39px;
+            font-size: 30px;
+            color: aquamarine;
+        }
+        .name{
+            border: 2px transparent ;
+            height: 30px;
+           width: 300px;
+           color: black;
+           border-radius: 10px;
+           padding: 5px;
+           margin-left: 31px;
+           
+           
+            
+        }
+        
+        .leftarrow{
+position: absolute;
+top: 0px;
+height: 50px;
+width: 50px;
+left: 0px;
+        }
+        .pass{
+            border: 2px transparent ;
+            height: 30px;
+           width: 300px;
+           color: black;
+           border-radius: 10px;
+           padding: 5px;
+           margin-left: 31px;
+           margin-top: 2px;
+           
+            
+        }
+      
+      .submit{
+          border: 2px solid blue;
+         
+          border-radius: 10px;
+          width: 114px;
+    height: 33px;
+    font-size: 19px;
+    margin: 12px;
+    margin-left: 119px;
+          cursor: pointer;
+          background-color: blue;
+          margin-top: 16px;
+      } 
+      .submit:hover{
+          color: white;
+          background-color: black;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+     <a  href="index.html"> <img class="leftarrow"  src="leftarrow.png" alt=""></a> 
+    
+        <div class="signin">
+<label for="Name" class="label1" >
+Username:
+</label>
+<div>
+
+    <input type="text" id="Name" class="name" placeholder="Username" >
+</div>
+<label for="password" class="label2" >
+    Password:
+    </label>
+    <div>
+    
+        <input type="password" id="password" class="pass" placeholder="Password" >
+    </div>
+    
+        <div>
+        
+           <a href="index.html">
+               <input type="submit" value="submit" class="submit">
+
+           </a> 
+        </div>
+    
+    
+        </div>
+    </div>
+</body>
+</html>
