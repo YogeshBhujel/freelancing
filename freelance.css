@@ -325,3 +325,36 @@ color: white;
     
     cursor: pointer;
 }
+.sublist{
+position: absolute;
+left: 1px;
+top: 25px;
+font-size: 25px;
+list-style: none;
+background-color: white;
+width: 100px;
+color: black;
+display: none;
+
+}
+.content1{
+    position: relative;
+    
+}
+.sublist li{
+    border-bottom: 2px solid black;
+}
+.heading :hover .sublist  {
+    position: absolute;
+left: 1px;
+top: 25px;
+font-size: 25px;
+list-style: none;
+background-color: green;
+width: 200px;
+color: black;
+display: block;
+border: 2px solid green;
+border-radius: 9px;
+white-space: nowrap;
+}
