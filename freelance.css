@@ -98,25 +98,25 @@
 .heading{
     border: 2px solid wheat;
     display: flex;
-    justify-content: center;
+    padding: 3px;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 1px;
     position: sticky;
    top: 2px;
    background-color: green;
+  padding-left: 27px;
+    height: 55px;
     
 }
 .heading a{
    text-decoration: none;
     margin: 10px;
     color: white;
+    white-space: nowrap;
 }
 .heading a:hover{
-    border: 2px solid green;
-    border-radius: 10px;
-    background-color: white;
-    color: green;
-    padding: 4px;
+   border-bottom: 2px solid blue;
+  color: red;
 }
 .back{
     
@@ -341,20 +341,76 @@ display: none;
     position: relative;
     
 }
-.sublist li{
-    border-bottom: 2px solid black;
-}
-.heading :hover .sublist  {
- position: absolute;
+.sublist{
+position: absolute;
 left: 1px;
-top: 25px;
-font-size: 25px;
+top: 23px;
+
 list-style: none;
-background-color: green;
-width: 200px;
+background-color: white;
+width: 10px;
+color: black;
+display: none;
+
+
+}
+.sublist li{
+    font-size: 15px;
+    padding: 6px;
+}
+.sublist li:hover{
+    color: green;
+}
+.content1{
+    position: relative;
+    
+}
+
+.heading :hover .sublist  {
+    position: absolute;
+left: 1px;
+top: 20px;
+font-size: 18px;
+list-style: none;
+background-color: white;
+width: 130px;
 color: black;
 display: block;
-border: 2px solid green;
+border: 2px solid white;
 border-radius: 9px;
 white-space: nowrap;
+font-family: 'Times New Roman', Times, serif;
+overflow: auto;
+height: 400px;
+z-index: 40;
+
+
 }
+.content2{
+    position: relative;
+}
+.content3{
+    position: relative;
+}
+.content4{
+    position: relative;
+}
+.content5{
+    position: relative;
+}
+.content6{
+    position: relative;
+}
+.content7{
+    position: relative;
+}
+.content8{
+    position: relative;
+}
+.content9{
+    position: relative;
+}
+.content1 .para4{
+    z-index: 10;
+}
+
